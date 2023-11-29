@@ -1,0 +1,25 @@
+[COMMONA]
+ITERATIONS     	1000
+METHOD         	PCA 
+PATHNAME       	data 
+POPSIZE        	100 
+PROBLEM        	DMOP1
+RUNS           	1 
+STA            	0 
+XCODING        	0 
+STRATEGY        	4
+
+[COMMONP]
+BOUNDLOWER     	0
+BOUNDUPPER     	1
+DIMENSION      	20
+TOLERANCEC     	1.0E-5 
+TOLERANCEF     	1.0E-5 
+TOLERANCEX     	1.0E-5 
+
+[DGTM]
+TAOT		30
+TINI		0.0
+NT          10
+TORDER	3
+ALPHA		1.0

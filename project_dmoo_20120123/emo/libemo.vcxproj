@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{089554FD-9F9C-4179-9E56-B21FF3C788F2}</ProjectGuid>
+    <RootNamespace>libemo</RootNamespace>
+    <Keyword>WIN32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">lib\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">tmp/WIN32/libemo/Debug\</IntDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">lib\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">tmp/WIN32/libemo/Release\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>include;../ea/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;_CRT_SECURE_NO_DEPRECATE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Lib>
+      <AdditionalDependencies>libea.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)libemo.lib</OutputFile>
+      <AdditionalLibraryDirectories>../emo/lib;../ea/lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>include;../ea/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;_CRT_SECURE_NO_DEPRECATE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Lib>
+      <AdditionalDependencies>libea.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)libemo.lib</OutputFile>
+      <AdditionalLibraryDirectories>../emo/lib;../ea/lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="src\emo\GenDE.cpp" />
+    <ClCompile Include="src\emo\GenESimplex.cpp" />
+    <ClCompile Include="src\emo\GenFuzzy.cpp" />
+    <ClCompile Include="src\emo\GenGTX.cpp" />
+    <ClCompile Include="src\emo\GenMod.cpp" />
+    <ClCompile Include="src\emo\GenModGTM1.cpp" />
+    <ClCompile Include="src\emo\GenModGTM2.cpp" />
+    <ClCompile Include="src\emo\GenModHybridA.cpp" />
+    <ClCompile Include="src\emo\GenModHybridB.cpp" />
+    <ClCompile Include="src\emo\GenModLocal.cpp" />
+    <ClCompile Include="src\emo\GenModLocalPCAO.cpp" />
+    <ClCompile Include="src\emo\GenModMIDEA.cpp" />
+    <ClCompile Include="src\emo\GenModMixGauss.cpp" />
+    <ClCompile Include="src\emo\GenModRM.cpp" />
+    <ClCompile Include="src\emo\GenModRM2.cpp" />
+    <ClCompile Include="src\emo\GenModRM3.cpp" />
+    <ClCompile Include="src\emo\GenModRM_O.cpp" />
+    <ClCompile Include="src\emo\GenModRMH.cpp" />
+    <ClCompile Include="src\emo\GenModSOM.cpp" />
+    <ClCompile Include="src\emo\GenPCX.cpp" />
+    <ClCompile Include="src\emo\GenSBX.cpp" />
+    <ClCompile Include="src\emo\GenSimplex.cpp" />
+    <ClCompile Include="src\emo\IndividualMO.cpp" />
+    <ClCompile Include="src\emo\Initialization.cpp" />
+    <ClCompile Include="src\emo\PopulationMO.cpp" />
+    <ClCompile Include="src\emo\SelCrowd.cpp" />
+    <ClCompile Include="src\emo\SelDualCrowd.cpp" />
+    <ClCompile Include="src\emo\SelG.cpp" />
+    <ClCompile Include="src\emo\SelM.cpp" />
+    <ClCompile Include="src\emo\SelMaxMin.cpp" />
+    <ClCompile Include="src\emo\SelNeighbor.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\emo\Alg.h" />
+    <ClInclude Include="include\emo\AlgDE.h" />
+    <ClInclude Include="include\emo\AlgExec.h" />
+    <ClInclude Include="include\emo\Config.h" />
+    <ClInclude Include="include\emo\Gen.h" />
+    <ClInclude Include="include\emo\GenMod.h" />
+    <ClInclude Include="include\emo\GenModMIDEA.h" />
+    <ClInclude Include="include\emo\IndividualMO.h" />
+    <ClInclude Include="include\emo\Initialization.h" />
+    <ClInclude Include="include\emo\Interface.h" />
+    <ClInclude Include="include\emo\LogFile.h" />
+    <ClInclude Include="include\emo\Parameter.h" />
+    <ClInclude Include="include\emo\PopulationMO.h" />
+    <ClInclude Include="include\emo\Sel.h" />
+    <ClInclude Include="include\emo\SelG.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="libalg.vcxproj">
+      <Project>{9b1f8d92-084a-4d70-94c6-31834ee3c880}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

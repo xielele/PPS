@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\emo\GenDE.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\emo\GenESimplex.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\emo\GenFuzzy.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\emo\GenGTX.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\emo\GenMod.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\emo\GenModGTM1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\emo\GenModGTM2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\emo\GenModHybridA.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\emo\GenModHybridB.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\emo\GenModLocal.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\emo\GenModLocalPCAO.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\emo\GenModMIDEA.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\emo\GenModMixGauss.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\emo\GenModRM.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\emo\GenModRM2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\emo\GenModRM3.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\emo\GenModRM_O.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\emo\GenModRMH.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\emo\GenModSOM.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\emo\GenPCX.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\emo\GenSBX.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\emo\GenSimplex.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\emo\IndividualMO.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\emo\Initialization.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\emo\PopulationMO.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\emo\SelCrowd.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\emo\SelDualCrowd.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\emo\SelG.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\emo\SelM.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\emo\SelMaxMin.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\emo\SelNeighbor.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\emo\Alg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\emo\AlgDE.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\emo\AlgExec.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\emo\Config.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\emo\Gen.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\emo\GenMod.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\emo\GenModMIDEA.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\emo\IndividualMO.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\emo\Initialization.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\emo\Interface.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\emo\LogFile.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\emo\Parameter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\emo\PopulationMO.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\emo\Sel.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\emo\SelG.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

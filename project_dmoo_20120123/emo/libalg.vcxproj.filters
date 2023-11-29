@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\alg\amoeba.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\alg\AR.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\alg\Fitting.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\alg\GTM.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\alg\HCSampler.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\alg\Kmeans.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\alg\LocalPCA.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\alg\LocalPCAO.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\alg\Matrix.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\alg\MatrixAlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\alg\MixGauss.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\alg\Model.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\alg\PCA.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\alg\QNewton.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\alg\Random.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\alg\SOM.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\alg\BPTSeries.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\alg\amoeba.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\alg\AR.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\alg\Fitting.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\alg\GTM.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\alg\HCSampler.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\alg\Kmeans.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\alg\LocalPCA.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\alg\LocalPCAO.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\alg\Matrix.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\alg\MixGauss.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\alg\Model.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\alg\PCA.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\alg\QNewton.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\alg\Random.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\alg\SOM.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\alg\BPTSeries.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
